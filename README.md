@@ -30,7 +30,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 python script.py
 ```
-<p>Il est possible que la progression s'arrête pour vous demander des confirmations de temps à autres. Entrez y puis appuyez sur entrée à chaque fois.</p>
+<p>Votre mot de passe vous sera demandé pour installer le nécessaire. Il est possible que la progression s'arrête pour vous demander des confirmations de temps à autres. Entrez y puis appuyez sur entrée à chaque fois.</p>
 
 ### Linux :
 <p> Ouvrez un terminal (ctrl-t), et copiez les commandes suivantes dedans, puis appuyez sur entree</p>
