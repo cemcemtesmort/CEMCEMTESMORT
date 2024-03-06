@@ -10,13 +10,12 @@
 ## Fonctionnement
 ### Mac / Linux :
 <p> Ouvrez un terminal (cmd + space et taper "terminal" sous macos, ou alors ctrl-t sous linux), et copiez les commandes suivantes dedans, puis appuyez sur entree</p>
-<code>
-git clone https://github.com/cemcemtesmort/CEMCEMTESMORT.git && cd CEMCEMTESMORT/
+<code>git clone https://github.com/cemcemtesmort/CEMCEMTESMORT.git && cd CEMCEMTESMORT/
 source venv/bin/activate
 python script.py
 </code>
 ### Windows :
-<p>Telechargez le repo en zip (meme bouton que pour clone). Appuyez sur la touche windows, tapez "powershell" dans la barre de recherche. Clic droit sur powershell -> executer en tant qu'administrateur. Copier les commandes suivantes dedans, puis appuyer sur entree</p>
+<p>Telechargez le repo en zip (bouton vert en haut a gauche), puis dézipez le sur votre bureau. Appuyez sur la touche windows, tapez "powershell" dans la barre de recherche. Clic droit sur powershell -> executer en tant qu'administrateur. Copiez les commandes suivantes dedans, puis appuyez sur entree</p>
 ```
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned -Force
 
