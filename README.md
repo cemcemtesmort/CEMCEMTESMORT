@@ -20,10 +20,10 @@ python script.py
 ```
 
 ### Termux (Sur telephone) :
-<p> Installez l'application Termux depuis l'Apple Store ou le Play Store. Puis ouvrez la, vous tomberez sur une console dans laquelle vous pourrez directement coller ce code, et appuyer sur lancer.</p>
+<p> Installez l'application Termux depuis l'Apple Store ou le Play Store. Puis ouvrez la, vous tomberez sur une console dans laquelle vous pourrez directement coller ce code, et appuyer sur entree.</p>
 
 ```
-pkg install git
+pkg install git --fix-missing
 git clone https://github.com/cemcemtesmort/CEMCEMTESMORT.git
 cd CEMCEMTESMORT/
 source venv/bin/activate
