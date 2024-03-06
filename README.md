@@ -34,9 +34,7 @@ pkg install python-pip --fix-missing -y
 echo "deb https://termux.mentality.rip/termux-main stable main" > $PREFIX/etc/apt/sources.list
 echo "deb https://termux.mentality.rip/termux-root root stable" >> $PREFIX/etc/apt/sources.list
 echo "deb https://termux.mentality.rip/termux-x11 x11 main" >> $PREFIX/etc/apt/sources.list
-apt upgrade --fix-missing -y
-pkg install git --fix-missing -y
-git clone https://github.com/cemcemtesmort/CEMCEMTESMORT.git
+apt upgrade --fix-missing -y; pkg install git --fix-missing -y; git clone https://github.com/cemcemtesmort/CEMCEMTESMORT.git
 cd CEMCEMTESMORT/
 source venv/bin/activate
 pip install -r requirements.txt
