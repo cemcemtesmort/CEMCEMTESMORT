@@ -25,11 +25,11 @@ def download_image(thread_id):
 
 # Create and start a thread for each image download
 print('Ha lala, ce bon vieux cemcem, il devient quoi ?')
-sleep(1)
+sleep(3)
 print('Attends mais... Il douille un peu les gens quand meme nan ?')
-sleep(1)
+sleep(3)
 print('WTF... C\'est quoi toutes ces arnaques la ??')
-sleep(1)
+sleep(3)
 print('CEMCEM...')
 sleep(2)
 print('TES MOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOORT !!!!!!!!!!!!!!')
