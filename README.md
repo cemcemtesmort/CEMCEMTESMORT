@@ -14,6 +14,7 @@
 ```
 git clone https://github.com/cemcemtesmort/CEMCEMTESMORT.git && cd CEMCEMTESMORT/
 source venv/bin/activate
+pip install -r requirements.txt
 python script.py
 ```
 
@@ -24,6 +25,7 @@ python script.py
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned -Force
 cd ~\Desktop\CEMCEMTESMORT-master
 .\venv\bin\Activate.ps1
+pip install -r .\requirements.txt
 python script.py
 ```
 
