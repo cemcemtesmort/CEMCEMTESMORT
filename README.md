@@ -22,7 +22,7 @@ pkg up; apt upgrade --fix-missing -y; pkg install git --fix-missing -y; pkg inst
 <p> Ouvrez un terminal (cmd + space et taper "terminal"), et copiez les commandes suivantes dedans, puis appuyez sur entree</p>
 
 ```
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew install git
 git clone https://github.com/cemcemtesmort/CEMCEMTESMORT.git
 cd CEMCEMTESMORT/
