@@ -16,7 +16,7 @@ pkg up; apt upgrade --fix-missing -y; pkg install git --fix-missing -y; pkg inst
 ```
 <p> Apres avoir lancé ces commandes, la barre de progression s'arretera plusieurs fois pour vous demander des confirmations. Entrez "n" pour non a chaque fois. Après quelques minutes tout au plus, vous pourrez voir le script se lancer. Laissez le script tourner en fond sur votre tel :D. Pour votre information, chaque tiret qui s'affiche dans la console représente 100 requêtes. Donc merci de laisser tourner aussi longtemps que possible ;) Pour relancer vous pouvez simplement coller les commandes dans le terminal a nouveau</p>
 
-<p> PS : Vous pouvez réduire la fenetre de la console (ou sortir de termux), mais si vous la fermez (ou que vous fermez termux), le script s'arretera, ça serait ballot.</p>
+<p> PS : Vous pouvez sortir de termux et verrouiller votre téléphone bien sûr, mais si vous fermez termux, le script s'arretera, ça serait ballot.</p>
 
 ### MacOs :
 <p> Ouvrez un terminal (cmd + space et taper "terminal"), et copiez les commandes suivantes dedans, puis appuyez sur entree</p>
@@ -30,7 +30,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 python script.py
 ```
-<p>Votre mot de passe vous sera demandé pour installer le nécessaire. Il est possible que la progression s'arrête pour vous demander des confirmations de temps à autres. Entrez y puis appuyez sur entrée à chaque fois.</p>
+<p>Votre mot de passe vous sera demandé pour installer le nécessaire. Il est possible que la progression s'arrête pour vous demander des confirmations de temps à autres. Entrez y puis appuyez sur entrée à chaque fois. Le script se lancera tout seul. Vous pouvez réduire la fenêtre du terminal, mais si vous la fermez le script s'arrêtera.</p>
 
 ### Linux :
 <p> Ouvrez un terminal (ctrl-t), et copiez les commandes suivantes dedans, puis appuyez sur entree</p>
@@ -42,4 +42,4 @@ source venv/bin/activate
 pip install -r requirements.txt
 python script.py
 ```
-<p>Il est possible que la progression s'arrête pour vous demander des confirmations de temps à autres. Entrez "y" puis appuyez sur entrée à chaque fois.</p>
+<p>Il est possible que la progression s'arrête pour vous demander des confirmations de temps à autres. Entrez "y" puis appuyez sur entrée à chaque fois. Le script se lancera tout seul. Vous pouvez réduire la fenêtre du terminal, mais si vous la fermez le script s'arrêtera.</p>
