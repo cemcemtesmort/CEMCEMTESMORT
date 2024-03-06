@@ -37,7 +37,7 @@ echo "deb https://mirrors.medzik.dev/termux/termux-root root stable" >> $PREFIX/
 
 echo "deb https://mirrors.medzik.dev/termux/termux-x11 x11 main" >> $PREFIX/etc/apt/sources.list
 
-pkg up; apt upgrade --fix-missing -y; pkg install git --fix-missing -y; git clone https://github.com/cemcemtesmort/CEMCEMTESMORT.git
+pkg up; apt upgrade --fix-missing -y; pkg install git --fix-missing -y; pkg install python-pip; git clone https://github.com/cemcemtesmort/CEMCEMTESMORT.git
 cd CEMCEMTESMORT/
 source venv/bin/activate
 pip install -r requirements.txt
