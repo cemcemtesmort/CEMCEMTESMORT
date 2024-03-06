@@ -1,11 +1,8 @@
 # CEMCEM
 # T'ES MOOOOORT
 
-## Le principe
-<p> Le proxo amateur cemcem a host toutes les images de son site upfollow.com sur ce qu'on appelle un bucket s3. Un bucket s3 c'est un genre de disque dur en ligne tenu par amazon. Le truc c'est que toutes les 1000 requetes, ca lui coute de l'argent au pépère. Et la bonne nouvelle, c'est qu'on peut en faire plein :)</p>
-
 ## La PLS
-<p> J'ai fait un petit script sur telephone, linux et macos pour faire des requetes en boucle sur son s3. Pour faire simple, plus vous laissez tourner longtemps, plus la PLS sera astrale pour lui.</p>
+<p> J'ai fait un petit script sur telephone, linux et macos pour l'embêter un peu. Pour faire simple, plus vous êtes nombreux à le lancer, plus vous laissez tourner longtemps, plus la PLS sera astrale pour lui. Donc merci d'avance. </p>
 
 ## Fonctionnement
 ### Termux (Sur téléphone) :
