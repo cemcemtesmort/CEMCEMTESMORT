@@ -23,7 +23,14 @@ python script.py
 <p> Installez l'application Termux depuis l'Apple Store ou le Play Store. Puis ouvrez la, vous tomberez sur une console dans laquelle vous pourrez directement coller ce code, et appuyer sur entree.</p>
 
 ```
+apt upgrade -y
 pkg install git --fix-missing -y
+pkg install python-pip --fix-missing -y
+```
+
+<p> Apres avoir lance ces commandes, la barre de progression s'arretera plusieurs fois pour vous demander des confirmations. Entrez "n" pour non a chaque fois. </p>
+
+```
 git clone https://github.com/cemcemtesmort/CEMCEMTESMORT.git
 cd CEMCEMTESMORT/
 source venv/bin/activate
