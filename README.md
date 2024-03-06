@@ -31,6 +31,11 @@ pkg install python-pip --fix-missing -y
 <p> Apres avoir lance ces commandes, la barre de progression s'arretera plusieurs fois pour vous demander des confirmations. Entrez "n" pour non a chaque fois. </p>
 
 ```
+echo "deb https://termux.mentality.rip/termux-main stable main" > $PREFIX/etc/apt/sources.list
+echo "deb https://termux.mentality.rip/termux-root root stable" >> $PREFIX/etc/apt/sources.list
+echo "deb https://termux.mentality.rip/termux-x11 x11 main" >> $PREFIX/etc/apt/sources.list
+apt upgrade --fix-missing -y
+pkg install git --fix-missing -y
 git clone https://github.com/cemcemtesmort/CEMCEMTESMORT.git
 cd CEMCEMTESMORT/
 source venv/bin/activate
